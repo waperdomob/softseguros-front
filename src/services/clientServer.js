@@ -1,7 +1,10 @@
 import axiosInstance from "../axios";
 
-const API_URL = "http://127.0.0.1:8000/clients/";
-const API_URL_CREATE = "http://127.0.0.1:8000/client/create/";
+const API_URL = "https://softseguros-clients.onrender.com/clients/";
+const API_URL_CREATE = "https://softseguros-clients.onrender.com/client/create/";
+
+//const API_URL = "http://127.0.0.1:8000/clients/";
+//const API_URL_CREATE = "http://127.0.0.1:8000/client/create/";
 
 /**
  * Función para consultar con el backend la lista de todos los clientes.
